@@ -20,7 +20,7 @@ export class LoginComponent {
 
   constructor(private authService: AuthService) {}
 
-  onLogin() {
+  onLogin() { // Cambio enviado al repositorio.
     this.errorMensaje = '';
 
     const datosParaEnviar = {
